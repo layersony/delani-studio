@@ -42,18 +42,48 @@ header>.container>.mouse-click{
 ***************/
 #about{
   /* background-color: blue; */
-  height: 50vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 #about>.container{
-  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/* #about>.container>.row h3{
+  margin-top:15px;
+} */
 #about>.container>.row>.a-text{
+  /* background-color: green; */
+  padding: 10px;
+}
+
+/***************
+*service section*
+****************/
+#service{
+  background-color: blue;
+  background-image: url("/assets/backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#service>.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* #service>.container>.row h3{
+  margin-top:15px;
+} */
+#service>.container>.row>.a-text{
   /* background-color: green; */
   padding: 10px;
 }
