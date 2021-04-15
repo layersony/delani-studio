@@ -36,3 +36,24 @@ header>.container>.mouse-click{
   /* background: green; */
   padding: 10px 10px 10px 10px;
 }
+
+/**************
+*ABOUT section*
+***************/
+#about{
+  /* background-color: blue; */
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about>.container{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about>.container>.row>.a-text{
+  /* background-color: green; */
+  padding: 10px;
+}
