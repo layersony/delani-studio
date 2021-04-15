@@ -87,7 +87,7 @@ header>.container>.mouse-click{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,8 +115,16 @@ header>.container>.mouse-click{
 #wwd>.container-fluid{
   min-height: 28vh;
 }
-
-
+#wwd>.container-fluid>.row>.col-md-4{
+  padding: 20px;
+  background-color: aqua;
+}
+#wwd>.container-fluid>.row>.col-md-4 img{
+  padding: 20px;
+}
+#wwd>.container-fluid>.row>.col-md-4>#design-text,#dev-text,#pm-text{
+  display: none;
+}
 /*******************
 *portfolio section*
 ********************/
