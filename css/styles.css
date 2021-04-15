@@ -9,7 +9,7 @@ h3{
 }
 
 header{
-  background-image: url('/assets/backgrounds/h_img.jpg');
+  background-image: url('../assets/backgrounds/h_img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -40,7 +40,22 @@ header>.container>.mouse-click{
   /* background: green; */
   padding: 10px 10px 10px 10px;
 }
+#mouse-click{
+  padding-top : 45px;
+	animation: bounce 2s infinite;
+}
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-55px);
+  }
+  60% {
+    transform: translateY(-45px);
+  }
+}
 /**************
 *ABOUT section*
 ***************/
@@ -49,12 +64,12 @@ header>.container>.mouse-click{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px auto;
 }
 #about>.container{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
 
 }
 
@@ -118,13 +133,35 @@ header>.container>.mouse-click{
 *contact us section*
 ********************/
 #contact{
-  background-color: blue;
+  background-image: url("/assets/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 #contact>.container{
-  background-color: brown;
   margin: 30px auto;
 }
 
 input[type=text][type=email]{
-  width: 50%;
+  width: 400px;
+}
+input::placeholder{
+  text-align: left;
+}
+
+/*******************
+*footer section*
+********************/
+footer{
+  padding: 10px;
+  margin: 20px 0 0 0;
+}
+
+footer>.container>.row img{
+  padding: 10px;
+}
+
+.copyright{
+  padding-top: 10px;
+  font-size: 15px;
 }
