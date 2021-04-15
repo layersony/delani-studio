@@ -111,5 +111,20 @@ header>.container>.mouse-click{
   margin: 20px 0;
 }
 #portfolio>.container>.row img{
-  margin: 20px 0;
+  margin: 20px auto;
+}
+
+/*******************
+*contact us section*
+********************/
+#contact{
+  background-color: blue;
+}
+#contact>.container{
+  background-color: brown;
+  margin: 30px auto;
+}
+
+input[type=text][type=email]{
+  width: 50%;
 }
