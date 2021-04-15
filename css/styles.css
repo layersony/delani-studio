@@ -83,7 +83,7 @@ header>.container>.mouse-click{
 ****************/
 #service{
   background-color: blue;
-  background-image: url("/assets/backgrounds/s_image.jpg");
+  background-image: url("../assets/backgrounds/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -140,7 +140,7 @@ header>.container>.mouse-click{
 *contact us section*
 ********************/
 #contact{
-  background-image: url("/assets/backgrounds/c_image.jpg");
+  background-image: url("../assets/backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
