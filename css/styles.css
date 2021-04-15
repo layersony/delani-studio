@@ -1,0 +1,38 @@
+*{
+  overflow-x: hidden;
+  font-family: Ubuntu;
+  text-align: center;
+}
+
+header{
+  background-image: url('/assets/backgrounds/h_img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header>.container{
+  /* background-color:red; */
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header>.container>.head-part{
+  /* background-color: blue; */
+  margin-top: 13%;
+  color: white;
+}
+header>.container>.head-part img{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+header>.container>.mouse-click{
+  /* background: green; */
+  padding: 10px 10px 10px 10px;
+}
