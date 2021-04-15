@@ -3,6 +3,10 @@
   font-family: Ubuntu;
   text-align: center;
 }
+h3{
+  padding: 15px;
+  margin: 10px 0;
+}
 
 header{
   background-image: url('/assets/backgrounds/h_img.jpg');
@@ -42,7 +46,6 @@ header>.container>.mouse-click{
 ***************/
 #about{
   /* background-color: blue; */
-  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,10 +54,10 @@ header>.container>.mouse-click{
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 50vh;
+
 }
-/* #about>.container>.row h3{
-  margin-top:15px;
-} */
+
 #about>.container>.row>.a-text{
   /* background-color: green; */
   padding: 10px;
@@ -80,10 +83,33 @@ header>.container>.mouse-click{
   justify-content: center;
   align-items: center;
 }
-/* #service>.container>.row h3{
-  margin-top:15px;
-} */
+
 #service>.container>.row>.a-text{
   /* background-color: green; */
   padding: 10px;
+}
+
+/*******************
+*what we do section*
+********************/
+#wwd{
+  /* background-color:green; */
+  padding: 10px;
+  margin: 20px auto;
+}
+#wwd>.container-fluid{
+  min-height: 28vh;
+}
+
+
+/*******************
+*portfolio section*
+********************/
+#portfolio{
+  /* background-color:brown; */
+  padding: 20px;
+  margin: 20px 0;
+}
+#portfolio>.container>.row img{
+  margin: 20px 0;
 }
