@@ -112,15 +112,18 @@ header>.container>.mouse-click{
   padding: 10px;
   margin: 20px auto;
   min-height: 40vh;
+  
 }
 #wwd>.container-fluid{
   min-height: 28vh;
 }
 #wwd>.container-fluid>.row>.col-md-4{
   padding: 20px;
+  cursor: pointer;
 }
 #wwd>.container-fluid>.row>.col-md-4 img{
   padding: 20px;
+  
 }
 
 #wwd>.container-fluid>.row>.col-md-4>#design-text,#dev-text,#pm-text{
@@ -135,6 +138,7 @@ header>.container>.mouse-click{
   /* background-color:brown; */
   padding: 20px;
   margin: 20px 0;
+  
 }
 #portfolio>.container>.row img{
   margin: 20px auto;
