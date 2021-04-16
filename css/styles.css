@@ -111,6 +111,7 @@ header>.container>.mouse-click{
   /* background-color:green; */
   padding: 10px;
   margin: 20px auto;
+  min-height: 40vh;
 }
 #wwd>.container-fluid{
   min-height: 28vh;
@@ -121,8 +122,11 @@ header>.container>.mouse-click{
 #wwd>.container-fluid>.row>.col-md-4 img{
   padding: 20px;
 }
+
 #wwd>.container-fluid>.row>.col-md-4>#design-text,#dev-text,#pm-text{
   display: none;
+  padding: 30px 30px 0 30px;
+  margin-top: -25px;
 }
 /*******************
 *portfolio section*

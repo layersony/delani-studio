@@ -1,4 +1,22 @@
 $(document).ready(function(){
+  // what we do section
+  $(".design").click(function(){
+    $(".design img").toggle()
+    $("#design-text").toggle()
+  });
+
+  $(".dev").click(function(){
+    $(".dev img").toggle()
+    $("#dev-text").toggle()
+  });
+
+  $(".pm").click(function(){
+    $(".pm img").toggle()
+    $("#pm-text").toggle()
+  });
+
+  // image hovers
+
   $(".image").mouseover(function(){
     $(".txt-hide").show()
   }).mouseout(function(){
