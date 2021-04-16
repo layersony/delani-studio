@@ -22,7 +22,7 @@ header{
 }
 header>.container{
   /* background-color:red; */
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -225,4 +225,8 @@ footer>.container>.row img{
 .copyright{
   padding-top: 10px;
   font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  
 }

@@ -1,18 +1,18 @@
 $(document).ready(function(){
   // what we do section
   $(".design").click(function(){
-    $(".design img").toggle()
-    $("#design-text").toggle()
+    $(".design img").slideToggle(1000)
+    $("#design-text").slideToggle(1000)
   });
 
   $(".dev").click(function(){
-    $(".dev img").toggle()
-    $("#dev-text").toggle()
+    $(".dev img").slideToggle(1000)
+    $("#dev-text").slideToggle(1000)
   });
 
   $(".pm").click(function(){
-    $(".pm img").toggle()
-    $("#pm-text").toggle()
+    $(".pm img").slideToggle(1000)
+    $("#pm-text").slideToggle(1000)
   });
 
   // image hovers
