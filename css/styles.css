@@ -151,11 +151,11 @@ header>.container>.mouse-click{
 
 #p-text{
   display: none;
-  background-color: rgb(175, 145, 100);
+  background-color: rgba(0, 0, 0, 0.596);
   padding: 40px;
-  border-radius: 10px;
-  color: black;
-  font-size: 30px;
+  border: 5px solid white;
+  color: white;
+  font-size: 20px;
   font-weight: bold;
   position: absolute;
   top: 50%;
@@ -173,18 +173,39 @@ header>.container>.mouse-click{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: white;
 }
 #contact>.container{
   margin: 30px auto;
 }
 
-input[type=text][type=email]{
-  width: 400px;
-}
-input::placeholder{
+input[type='text'],[type='email'],#comment{
+  background-color: transparent;
+  color: white;
   text-align: left;
+  font-size: 22px;
+
+}
+input::placeholder, 
+:-ms-input-placeholder, 
+::-ms-input-placeholder{
+  text-align: left;
+  color: green;
 }
 
+#uname{
+  width: 45%;
+  margin: 0 2.5%;
+}
+#email{
+  width: 45%;
+  margin: 0 2.5%;
+}
+#submit{
+  padding: 10px 40px;
+  margin: 10px auto;
+  font-size: 20px;
+}
 /*******************
 *footer section*
 ********************/
