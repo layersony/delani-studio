@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- css styling -->
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/styles.css">
   <!-- javascript  -->
-  <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/script.js"></script>
+  <script type='text/javascript' src="js/jquery-3.6.0.js"></script>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript' src="js/script.js"></script>
   <title>Delani Studio</title>
 </head>
 <body>
@@ -145,13 +147,19 @@
     <div class="container">
       <h3>CONTACT US</h3>
       <div id="contactus">
-        <form action="#" id="contact-us">
+        <form action="https://gmail.us1.list-manage.com/subscribe/post?u=fb55187d4b2a181dc2c7144cb&amp;id=9b49764ce3" id="contact-us mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div class="form-group form-inline">
-            <input type="text" class="form-control" name="name" id="uname" placeholder="Name...">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Email...">
+            <input type="text" class="form-control uname" name="FNAME" id="mce-FNAME" placeholder="Name...">
+            <input type="email" class="form-control required email" name="EMAIL" id="mce-EMAIL" placeholder="Email...">
           </div>
 
           <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+
           <button type="submit" id="submit" class="btn btn-success">Submit</button>
         </form>
       </div>

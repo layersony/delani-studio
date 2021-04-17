@@ -43,5 +43,31 @@ $(document).ready(function(){
     $(".txt-hide7").fadeToggle(300)
   });
 
-  
+
 });
+
+$(document).ready(function(){
+  $("#contactus form").submit(function(event){
+    let fName = $("input.uname").val();
+    let email = $("input.email").val();
+    let textarea = $("textarea#comment").val();
+    if (fName && email && textarea){
+      alert(fName + ', We have received your message. Thank you for reaching out to us.')
+    }else{
+      alert("Please Do enter the required Details")
+    };
+
+    // mailchimp code
+
+    (function($) {
+      window.fnames = new Array(); 
+      window.ftypes = new Array();
+      fnames[0]='EMAIL';
+      ftypes[0]='email';
+      fnames[1]='FNAME';
+      ftypes[1]='text';
+      }
+      (jQuery));
+      var $mcj = jQuery.noConflict(true);
+  });
+})
