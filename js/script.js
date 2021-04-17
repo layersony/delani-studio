@@ -1,67 +1,47 @@
 $(document).ready(function(){
   // what we do section
-  $(".design").click(function(){
-    $(".design img").slideToggle(1000)
-    $("#design-text").slideToggle(1000)
-  });
+  let wwds = ["design", "dev", "pm"];
 
-  $(".dev").click(function(){
-    $(".dev img").slideToggle(1000)
-    $("#dev-text").slideToggle(1000)
+  wwds.forEach(function(wwd){
+    $("." + wwd).click(function(){
+      $("."+ wwd +" img").slideToggle()
+      $("#"+ wwd +"-text").slideToggle()
+    })
   });
-
-  $(".pm").click(function(){
-    $(".pm img").slideToggle(1000)
-    $("#pm-text").slideToggle(1000)
-  });
-
+  
   // image hovers
 
-  $(".image").mouseover(function(){
-    $(".txt-hide").show()
-  }).mouseout(function(){
-    $(".txt-hide").hide();
+  $(".image0").hover(function(){
+    $(".txt-hide0").fadeToggle(300)
   });
 
-  $(".image1").mouseover(function(){
-    $(".txt-hide1").show()
-  }).mouseout(function(){
-    $(".txt-hide1").hide();
+  $(".image1").hover(function(){
+    $(".txt-hide1").fadeToggle(300)
   });
 
-  $(".image2").mouseover(function(){
-    $(".txt-hide2").show()
-  }).mouseout(function(){
-    $(".txt-hide2").hide();
+  $(".image2").hover(function(){
+    $(".txt-hide2").fadeToggle(300)
   });
 
-  $(".image3").mouseover(function(){
-    $(".txt-hide3").show()
-  }).mouseout(function(){
-    $(".txt-hide3").hide();
+  $(".image3").hover(function(){
+    $(".txt-hide3").fadeToggle(300)
   });
 
-  $(".image4").mouseover(function(){
-    $(".txt-hide4").show()
-  }).mouseout(function(){
-    $(".txt-hide4").hide();
+  $(".image4").hover(function(){
+    $(".txt-hide4").fadeToggle(300)
   });
 
-  $(".image5").mouseover(function(){
-    $(".txt-hide5").show()
-  }).mouseout(function(){
-    $(".txt-hide5").hide();
+  $(".image5").hover(function(){
+    $(".txt-hide5").fadeToggle(300)
   });
 
-  $(".image6").mouseover(function(){
-    $(".txt-hide6").show()
-  }).mouseout(function(){
-    $(".txt-hide6").hide();
+  $(".image6").hover(function(){
+    $(".txt-hide6").fadeToggle(300)
   });
 
-  $(".image7").mouseover(function(){
-    $(".txt-hide7").show()
-  }).mouseout(function(){
-    $(".txt-hide7").hide();
+  $(".image7").hover(function(){
+    $(".txt-hide7").fadeToggle(300)
   });
+
+  
 });

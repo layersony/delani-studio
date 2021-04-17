@@ -82,7 +82,7 @@ header>.container>.mouse-click{
 *service section*
 ****************/
 #service{
-  background-color: blue;
+  /* background-color: blue; */
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
