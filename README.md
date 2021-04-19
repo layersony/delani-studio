@@ -63,6 +63,9 @@ Git
 
 ---
 
+## Known Bugs
+* mail chimp API does not function properly, Will redirect you after you have Contacted uS
+
 ## Contact Details
 sammaingi5@gmail.com
 
