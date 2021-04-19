@@ -190,6 +190,12 @@ input[type='text'],[type='email'],#comment{
   font-size: 22px;
 
 }
+
+.form-inline .form-control {
+  width: 45%;
+  margin: 0.5% auto;
+}
+
 input::placeholder, 
 :-ms-input-placeholder, 
 ::-ms-input-placeholder{

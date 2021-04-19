@@ -11,6 +11,8 @@
   <!-- javascript  -->
   <script type='text/javascript' src="js/jquery-3.6.0.js"></script>
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+  <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"e71bed4d6ae5a7c984dfe28b0","lid":"dbf7e27685","uniqueMethods":true}) })</script>
   <script type='text/javascript' src="js/script.js"></script>
   <title>Delani Studio</title>
 </head>
@@ -84,8 +86,8 @@
           <img src="./assets/services_icons/product_icon.png" alt="Development">
           <h5 class="font-weight-bold">PRODUCT MANAGEMENT</h5>
           <div id="pm-text">
-            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-          <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we buld are always ready to go live.</p>
+            <p>The iterative process allows for changes as business requirements evolve.</p>
           </div>
         </div>
       </div>
@@ -147,7 +149,9 @@
     <div class="container">
       <h3>CONTACT US</h3>
       <div id="contactus">
-        <form action="https://gmail.us1.list-manage.com/subscribe/post?u=fb55187d4b2a181dc2c7144cb&amp;id=9b49764ce3" id="contact-us mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <form action="https://gmail.us1.list-manage.com/subscribe/post?" id="contact-us mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <input type="hidden" name="u" value="fb55187d4b2a181dc2c7144cb">
+          <input type="hidden" name="id" value="9b49764ce3">
           <div class="form-group form-inline">
             <input type="text" class="form-control uname" name="FNAME" id="mce-FNAME" placeholder="Name...">
             <input type="email" class="form-control required email" name="EMAIL" id="mce-EMAIL" placeholder="Email...">
@@ -162,6 +166,7 @@
 
           <button type="submit" id="submit" class="btn btn-success">Submit</button>
         </form>
+        <iframe name="formResult" style="display:none !important;" frameborder="0"></iframe>
       </div>
     </div>
   </section>
